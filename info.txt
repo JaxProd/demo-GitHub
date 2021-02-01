@@ -1,0 +1,25 @@
+git add 'nom_fichier' : 
+ajoute ton fichier à la liste des fichiers à la liste à surveiller
+
+git add . : 
+ajoute tous les fichiers à la liste de surveillance
+
+
+git status : 
+analyse les modifications de fichiers
+
+git branch : 
+lister les branches
+* nom désigne la branche actuelle
+
+git branch nom-de-branche crée une nouvelle branche
+
+git checkout nom_de_la_branche : 
+permet de basculer d'une branche à l'autre
+
+git log : 
+donne la liste des commit et la référence 
+
+git commit -m "text de description"
+Crée une nouvelle version
+
