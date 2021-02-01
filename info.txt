@@ -23,3 +23,24 @@ donne la liste des commit et la référence
 git commit -m "text de description"
 Crée une nouvelle version
 
+
+
+-------------------------------------------------
+
+git push origin master : 
+upload le projet sur GitHub
+
+
+Enregistrer les identifiants GitHub
+git config --global user.name "Identifiant"
+git config --global user.password "IdentMotDePasse"
+
+
+Vérifier la configuration enregistrée : 
+git config --list
+
+
+
+
+
+
