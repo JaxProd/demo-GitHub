@@ -2,7 +2,7 @@ git add 'nom_fichier' :
 ajoute ton fichier à la liste des fichiers à la liste à surveiller
 
 git add . : 
-ajoute tous les fichiers à la liste de surveillance
+ajoute tous les fichiers au pool de push
 
 
 git status : 
@@ -16,6 +16,8 @@ git branch nom-de-branche crée une nouvelle branche
 
 git checkout nom_de_la_branche : 
 permet de basculer d'une branche à l'autre
+
+git 
 
 git log : 
 donne la liste des commit et la référence 
@@ -38,3 +40,19 @@ Vérifier la configuration enregistrée :
 git config --list
 
 -------------------------------------------------
+
+
+procédure
+
+git status : 
+vérifie les fichiers modifiés et qui ne sont pas mis à jour dans le pool
+
+git add . : 
+ajoute tout les fichiers pour être commit
+
+git commit -m "text description"
+crée une nouvelle version 
+
+git push origin master : 
+upload la nouvelle version sur GitHubs
+
