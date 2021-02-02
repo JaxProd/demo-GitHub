@@ -17,5 +17,76 @@
         et ensuite de fusionner les différents ajout dans le projet commun appelé "Master"
     </p>
 
+    <p>
+        Démarrer git : <br>
+        <em>git init</em> 
+    </p>
+    <hr>
+<p>
+    Configurer git : <br>
+    <em>git config --global user.email "em@ail.com"<br></em>
+    <em>git config --global user.name "Identifiant"<br></em>
+    <em>git config --global user.password "IdentMotDePasse"<br></em>
+</p>    
+<p>
+    Vérifier la configuration de Git : <br>
+    <em>git config -l<br></em>
+    <em>git config --list<br></em>
+</p>    
+    <hr>
+    
+<p>
+    Vérifier les modifications sur les fichiers <br>
+    <em>git status<br></em>
+    <br>
+    Si il y a des fichiers modifiés ( en rouge )<br>
+</p> 
+<p>
+    Ajouter des fichiers à la liste de surveillance de modification :<br> 
+    <em>git add "nom_fichier"<br></em>
+    <em>git add . ( tous les fichiers du dossier )<br></em>
+</p> 
+<p>
+    Préparer un ajout au projet<br>
+    <em>git commit -m "description de la modification"<br></em>
+</p> 
+
+<p>
+    Uploder les fichiers sur le repository : <br>
+    <em>git push origin master<br></em>
+</p>   
+    <hr>
+<p>
+    Créer une nouvelle branche du projet : <br>
+    <em>git branch nom_de_la_nouvelle_branche<br></em>
+</p> 
+<p>
+    Lister les branches du projet <br>
+    <em>git branch<br></em>
+    ( la branche sur laquelle on est positionné possède une * et est en vert )
+</p> 
+<p>
+    Se positionner sur une branche : <br>
+    <em>git checkout nom_de_la_branche_cible<br></em>
+</p>    
+<p>
+     Fusionner une branche modèle sur une branche cible :<br>
+     ( se positionner sur la branche cible )<br>
+     <em>git merge nom_de_la_branche_model<br></em>
+</p>    
+ <p>
+  
+    Supprimer une branche :<br>
+    <em>git branch -d nom_de_la_branche_à_supprimmer</em>
+ </p>    
+   
+    <hr>
+ <p>
+       Rapatrier un repository distant : <br>
+    <em>git pull origin master</em> 
+ </p>    
+   
+
+
 </body>
 </html>

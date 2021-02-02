@@ -9,3 +9,11 @@ html
     background-color:rgb(22, 122, 126);
     text-align: center;
 }
+
+em{
+    background-color: rgba(0, 0, 0, 0.8);
+    color:green;
+    padding:.4em 1em;
+    display: block;
+    width:auto;
+}
