@@ -37,6 +37,7 @@ upload le projet sur GitHub
 
 
 Enregistrer les identifiants GitHub
+git config --global user.email "em@ail.com"
 git config --global user.name "Identifiant"
 git config --global user.password "IdentMotDePasse"
 
