@@ -1,64 +1,54 @@
-git add 'nom_fichier' : 
-ajoute ton fichier à la liste des fichiers à la liste à surveiller
-
-git add . : 
-ajoute tous les fichiers au pool de push
-
-
-git status : 
-analyse les modifications de fichiers
-
-git branch : 
-lister les branches
-* nom désigne la branche actuelle
-
-Créer une nouvelle branche :
-git branch nom-de-branche 
-
-git checkout nom_de_la_branche : 
-permet de basculer d'une branche à l'autre
-
-Fusionner une branche sur la branche actuelle : 
-git merge nom_de_la_branche_a_fusionner_avec_le_master
-
-Supprimer une branche : 
-git branch -d nom_de_la_branche_a_supprimer
-
-Afficher la liste des commit et la référence :
-git loglangue
-
-git commit -m "text de description"
-Crée une nouvelle version
-
+Démarrer git : 
+git init 
 -------------------------------------------------
 
-git push origin master : 
-upload le projet sur GitHub
-
-
-Enregistrer les identifiants GitHub
+Configurer git : 
 git config --global user.email "em@ail.com"
 git config --global user.name "Identifiant"
 git config --global user.password "IdentMotDePasse"
 
-
-Vérifier la configuration enregistrée : 
+Vérifier la configuration de Git : 
+git config -l
 git config --list
 
 -------------------------------------------------
 
 
-procédure
+Vérifier les modifications sur les fichiers
+git status 
 
-git status : 
-vérifie les fichiers modifiés et qui ne sont pas mis à jour dans le pool
+Si il y a des fichiers modifiés ( en rouge )
 
-git add . : 
-ajoute tout les fichiers pour être commit
+Ajouter des fichiers à la liste de surveillance de modification : 
+git add "nom_fichier"
+git add . ( tous les fichiers du dossier )
 
-git commit -m "text description"
-crée une nouvelle version 
+Préparer un ajout au projet
+git commit -m "description de la modification"
 
-git push origin master : 
-upload la nouvelle version sur GitHubs
+Uploder les fichiers sur le repository : 
+git push origin master
 
+-------------------------------------------------
+
+Créer une nouvelle branche du projet : 
+git branch nom_de_la_nouvelle_branche
+
+Lister les branches du projet 
+git branch
+( la branche sur laquelle on est positionné possède une * et est en vert )
+
+Se positionner sur une branche : 
+git checkout nom_de_la_branche_cible
+
+Fusionner une branche modèle sur une branche cible :
+( se positionner sur la branche cible )
+git merge nom_de_la_branche_model
+
+Supprimer une branche :
+git branch -d nom_de_la_branche_à_supprimmer
+
+-------------------------------------------------
+
+Rapatrier un repository distant : 
+git pull origin master 
