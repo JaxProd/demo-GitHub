@@ -12,15 +12,20 @@ git branch :
 lister les branches
 * nom désigne la branche actuelle
 
-git branch nom-de-branche crée une nouvelle branche
+Créer une nouvelle branche :
+git branch nom-de-branche 
 
 git checkout nom_de_la_branche : 
 permet de basculer d'une branche à l'autre
 
-git 
+Fusionner une branche sur la branche actuelle : 
+git merge nom_de_la_branche_a_fusionner_avec_le_master
 
-git log : 
-donne la liste des commit et la référence 
+Supprimer une branche : 
+git branch -d nom_de_la_branche_a_supprimer
+
+Afficher la liste des commit et la référence :
+git loglangue
 
 git commit -m "text de description"
 Crée une nouvelle version
